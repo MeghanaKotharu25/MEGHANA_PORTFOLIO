@@ -335,7 +335,7 @@ const journey = [
   { hash: '7c19f02', date: '2017 — 2024', title: 'NSN Memorial School', org: '', points: [] },
   { hash: 'e48a3d1', date: 'Jun 2024 — present', title: 'B.Tech, CSE (Artificial Intelligence)', org: 'Amrita Vishwa Vidyapeetham, Coimbatore', points: ['CGPA 8.93 / 10, ongoing through 2028'] },
   { hash: '2f9b6aa', date: 'Nov 2025 — present', title: 'Vice President, INIT Club', org: 'Amrita Vishwa Vidyapeetham', points: ['Leading technical initiatives and student project activities'] },
-  { hash: 'c0ffee3', date: 'Feb 2026 — June 2026', title: 'Frontend Developer Intern', org: 'TARQEN Solutions', points: ['Built API-driven frontend architectures and optimized responsive UI for production'] },
+  { hash: 'c0ffee3', date: 'Feb 2026 — June 2026', title: 'AI / Full-Stack Intern', org: 'TARQEN Solutions', points: ['Worked in a fast-paced startup environment contributing across frontend development, AI tooling, and lightweight DevOps for the product', 'Built and refined app interfaces while supporting AI-driven features and internal workflows'] },
   { hash: '91dc04b', date: 'Jan 2026 — present', title: 'AI Research Intern', org: 'ROR Technologies', points: ['Built RAG-based AI assistants over enterprise knowledge sources', 'Designed agentic workflows to automate multi-step business processes'] },
 ];
 
