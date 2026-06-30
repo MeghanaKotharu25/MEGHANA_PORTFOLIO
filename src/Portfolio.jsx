@@ -354,10 +354,10 @@ const projects = [
 
 const skillGroups = [
   { label: 'languages', items: ['Python', 'C++', 'JavaScript', 'SQL', 'C', 'Java'], cyber: false },
-  { label: 'ml & ai', items: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'XGBoost', 'Transformers', 'LLMs', 'RAG', 'SHAP'], cyber: false },
-  { label: 'web & backend', items: ['React', 'Next.js', 'MongoDB'], cyber: false },
-  { label: 'hardware / cybersec', items: ['Arduino', 'ESP32', 'PYNQ-Z2', 'RTL-SDR', 'Coral Dev Board', 'ADALM2000'], cyber: true },
-  { label: 'tools', items: ['Git', 'VS Code', 'IntelliJ IDEA'], cyber: false },
+  { label: 'ml & ai', items: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'XGBoost', 'Transformers', 'LLMs', 'RAG', 'XAI', 'NumPy', 'Pandas', 'Seaborn', 'OpenCV'], cyber: false },
+  { label: 'web & backend', items: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'MongoDB'], cyber: false },
+  { label: 'hardware / cybersec', items: ['Arduino', 'ESP32', 'PYNQ-Z2', 'RTL-SDR', 'Coral Dev Board', 'ADALM2000', 'Kali Linux'], cyber: true },
+  { label: 'tools', items: ['Git', 'VS Code', 'IntelliJ IDEA', 'Jupyter Notebook'], cyber: false },
 ];
 
 const certifications = [
@@ -365,6 +365,9 @@ const certifications = [
   { title: 'Advanced Learning Algorithms', issuer: 'DeepLearning.AI', date: 'Dec 2025', link: 'https://coursera.org/share/fde8849716706f344e5066f1713085bb' },
   { title: 'Google Prompting Essentials', issuer: 'Google', date: 'May 2026', link: 'https://coursera.org/share/5095525c457ec5f6ec8ece247177464f' },
   { title: 'Google AI Essentials', issuer: 'Google', date: 'May 2026', link: 'https://coursera.org/share/70db0469e4e73b37f7a571b5711ec968' },
+  { title: 'Introduction to Responsible AI', issuer: 'Google Skills', date: '2026', link: 'https://www.skills.google/public_profiles/7c0f12d7-2413-4fe9-a2e7-428ad3fef2c9/badges/24912735' },
+  { title: 'Introduction to Large Language Models', issuer: 'Google Skills', date: '2026', link: 'https://www.skills.google/public_profiles/7c0f12d7-2413-4fe9-a2e7-428ad3fef2c9/badges/24904583' },
+  { title: 'Introduction to Generative AI', issuer: 'Google Skills', date: '2026', link: 'https://www.skills.google/public_profiles/7c0f12d7-2413-4fe9-a2e7-428ad3fef2c9/badges/24904535' },
 ];
 
 const achievements = [
