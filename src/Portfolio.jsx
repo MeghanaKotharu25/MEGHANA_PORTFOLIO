@@ -851,8 +851,8 @@ function HomePage({ scrollY, hover, unhover }) {
         @keyframes pf-gl1 { 0%,92%,100%{clip-path:none;transform:none;opacity:0;} 93%{clip-path:polygon(0 20%,100% 20%,100% 38%,0 38%);transform:translateX(-3px);opacity:0.8;} 96%{clip-path:polygon(0 55%,100% 55%,100% 72%,0 72%);transform:translateX(3px);opacity:0.7;} }
         @keyframes pf-gl2 { 0%,90%,100%{clip-path:none;transform:none;opacity:0;} 91%{clip-path:polygon(0 60%,100% 60%,100% 78%,0 78%);transform:translateX(2px);opacity:0.7;} 94%{clip-path:polygon(0 10%,100% 10%,100% 28%,0 28%);transform:translateX(-2px);opacity:0.6;} }
         .pf-tagline { font-family: 'Fraunces', serif; font-style: italic; font-weight: 300; font-size: clamp(1rem,2vw,1.25rem); color: var(--cream-dim); max-width: 34rem; line-height: 1.6; }
-        .pf-projects-teaser { display: flex; align-items: center; gap: 1.5rem; margin-top: 1rem; flex-wrap: wrap; }
-        .pf-projects-teaser-btn { font-family: 'IBM Plex Mono', monospace; font-size: 0.8rem; letter-spacing: 0.1em; padding: 0.75rem 1.5rem; border-radius: 6px; border: 1px solid rgba(194,163,108,0.3); color: var(--cream); background: none; cursor: inherit; transition: background 0.3s, border-color 0.3s; display: inline-flex; align-items: center; gap: 0.5rem; }
+        .pf-projects-teaser { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+        .pf-projects-teaser-btn { font-family: 'IBM Plex Mono', monospace; font-size: 0.8rem; letter-spacing: 0.1em; padding: 0.75rem 1.5rem; border-radius: 6px; border: 1px solid rgba(194,163,108,0.3); color: var(--cream); background: none; cursor: inherit; transition: background 0.3s, border-color 0.3s; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; }
         .pf-projects-teaser-btn:hover { background: rgba(194,163,108,0.08); border-color: var(--gold); }
         .pf-projects-teaser-count { font-size: 0.75rem; color: var(--cream-dim); letter-spacing: 0.1em; }
       `}</style>
@@ -895,6 +895,14 @@ function HomePage({ scrollY, hover, unhover }) {
             >
               $ ls projects/ <span style={{ color: 'var(--gold)' }}>→</span>
             </button>
+            <a
+              className="pf-projects-teaser-btn"
+              href="/AI_MEGHANA_K_RESUME.pdf"
+              download
+              onMouseEnter={hover} onMouseLeave={unhover}
+            >
+              ↓ download resume <span style={{ color: 'var(--gold)' }}>pdf</span>
+            </a>
           </div>
         </div>
       </section>
